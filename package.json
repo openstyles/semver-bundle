@@ -1,6 +1,6 @@
 {
   "name": "semver-bundle",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "A browserified dist of node-semver",
   "scripts": {
     "test": "node test.js",

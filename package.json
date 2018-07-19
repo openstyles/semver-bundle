@@ -3,6 +3,8 @@
   "version": "0.0.0",
   "description": "A browserified dist of node-semver",
   "scripts": {
+    "test": "node test.js",
+    "preversion": "npm test",
     "build": "rollup -c"
   },
   "devDependencies": {
@@ -12,7 +14,6 @@
     "rollup-plugin-re": "^1.0.7",
     "rollup-plugin-uglify": "^4.0.0"
   },
-  "repository": "https://github.com/eight04/semver-bundle",
   "dependencies": {
     "semver": "^5.5.0"
   }

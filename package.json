@@ -4,7 +4,7 @@
   "description": "A browserified dist of node-semver",
   "scripts": {
     "test": "node test.js",
-    "preversion": "npm test",
+    "preversion": "npm run build && npm test",
     "build": "rollup -c"
   },
   "devDependencies": {
